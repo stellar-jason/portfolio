@@ -1,0 +1,53 @@
+.jumbotron {
+  background-color: black;
+}
+
+body {
+  font-family: "Baloo Thambi 2", cursive;
+  overflow-x: hidden;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.jumbotron h1 {
+  font-size: 70px;
+}
+
+.navbar {
+  background-color: rgb(29, 29, 29);
+  margin-top: 0;
+}
+
+.nav-link-header {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: turquoise !important;
+}
+
+u > h1 {
+  font-size: 50px;
+  padding-top: 3rem;
+}
+
+footer {
+  background-color: black;
+  padding: 3rem;
+}
+
+.row-content {
+  padding: 2rem 0;
+  border-top: 1px ridge;
+  min-height: 200px;
+  margin-top: 5rem;
+  border-color: turquoise;
+}
+
+.noBorder {
+  border-width: 0;
+}
