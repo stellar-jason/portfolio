@@ -15,7 +15,7 @@ class About extends Component {
           </div>
           <Row>
             <div className="col-12 col-md-7 d-flex justify-content-center">
-              <img src="assets/images/portrait.jpg" alt="Portrait" width="50%" height="auto" style={{ borderRadius: '10%' }} />
+              <img src="assets/images/portrait.jpg" alt="Portrait" width="50%" height="auto" style={{ borderRadius: "10%" }} />
             </div>
             <div className="col-12 col-md-5">
               <h2>Hi, I'm Jason. Nice to meet you.</h2>
@@ -28,12 +28,12 @@ class About extends Component {
               <div>
                 <Nav>
                   <NavItem>
-                    <NavLink href="https://www.linkedin.com/in/jason-weyland-4a3703119/" target="_blank">
+                    <NavLink href="https://www.linkedin.com/in/jason-weyland-4a3703119/" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-linkedin" /> LinkedIn
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="https://github.com/JWeyland12" target="_blank">
+                    <NavLink href="https://github.com/JWeyland12" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-github" /> GitHub
                     </NavLink>
                   </NavItem>

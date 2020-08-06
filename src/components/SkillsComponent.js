@@ -21,17 +21,18 @@ const RenderSkillsBar = ({ skillsList }) => {
   return (
     <>
       {skillsList.map((skill) => {
-        if (skill.id < 10)
+        if (skill.id < 10) {
           return (
             <>
-              <div className="row">
+              <div className="row" key={skill.id}>
                 <div className="col-3 col-md-2 d-flex justify-content-end">{skill.skill}</div>
                 <div className="col-9 col-md-10">
                   <Progress color="info" value={skill.value} className="my-2" />
                 </div>
               </div>
             </>
-          );
+          )}
+          return <div/>;
       })}
     </>
   );

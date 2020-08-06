@@ -8,16 +8,16 @@ class Footer extends Component {
           <div className='container'>
             <div className='row'>
               <div className='col d-flex justify-content-center'>
-                <a className='btn btn-social-icon btn-linkedin mx-1' target='_blank' href="https://www.linkedin.com/in/jason-weyland-4a3703119/">
+                <a className='btn btn-social-icon btn-linkedin mx-1' target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/jason-weyland-4a3703119/">
                   <i className='fa fa-linkedin text-light'/>
                 </a>{" "}
-                <a className='btn btn-social-icon btn-github mx-1' target='_blank' href="https://github.com/JWeyland12">
+                <a className='btn btn-social-icon btn-github mx-1' target='_blank' rel="noopener noreferrer" href="https://github.com/JWeyland12">
                   <i className='fa fa-github text-light'/>
                 </a>{" "}
               </div>
             </div>
             <div className='row d-flex justify-content-center'>
-              <text className='text-secondary'>Jason Weyland</text>
+              <p className='text-secondary'>Jason Weyland</p>
             </div>
           </div>
         </footer>
