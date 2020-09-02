@@ -98,9 +98,7 @@ class Projects extends Component {
                       <hr />
                       <Row>
                         <div className="col">
-                          <p>
-                            {project.par}
-                          </p>
+                          <p>{project.par}</p>
                         </div>
                       </Row>
                       <Row>

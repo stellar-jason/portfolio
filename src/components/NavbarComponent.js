@@ -48,7 +48,7 @@ class NavBar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" href="#">
+                  <NavLink className="nav-link" href="#contact">
                     Contact
                   </NavLink>
                 </NavItem>

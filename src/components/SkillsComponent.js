@@ -62,6 +62,8 @@ class Skills extends Component {
               <div className="row d-flex">
                 <ul>
                   <li>Redux Thunk</li>
+                  <li>Express</li>
+                  <li>Mongoose</li>
                   <li>REST API</li>
                   <li>Reactstrap</li>
                   <li>React-Redux-Forms</li>

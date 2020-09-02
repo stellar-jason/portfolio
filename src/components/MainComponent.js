@@ -4,6 +4,7 @@ import About from "./AboutComponent";
 import Footer from './FooterComponent';
 import Skills from "./SkillsComponent";
 import Projects from './ProjectsComponent';
+import Contact from './ContactComponent';
 import {SkillsList} from '../shared/skills';
 import {projects} from '../shared/projects';
 
@@ -23,6 +24,7 @@ class Main extends Component {
         <About/>
         <Skills skillsList={this.state.skillsList}/>
         <Projects projectList={this.state.projectList}/>
+        <Contact/>
         <Footer/>
       </>
     );
