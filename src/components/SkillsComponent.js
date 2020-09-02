@@ -57,7 +57,7 @@ class Skills extends Component {
             <div className="col-12 col-md-8">
               <RenderSkillsBar skillsList={this.props.skillsList} />
             </div>
-            <div className="col-12 col-md-4 mt-4">
+            <div className="col-12 col-md-4">
               <h2>Honorary Mention</h2>
               <div className="row d-flex">
                 <ul>
