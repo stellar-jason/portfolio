@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.css";
 import "react-fontawesome";
 import "bootstrap-social/bootstrap-social.css";
+import 'react-toastify/dist/ReactToastify.css';
 import "fontsource-baloo-thambi-2";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
