@@ -25,8 +25,8 @@ const RenderSkillsBar = ({ skillsList }) => {
           return (
             <>
               <div className="row" key={skill.id}>
-                <div className="col-3 col-md-2 d-flex justify-content-end">{skill.skill}</div>
-                <div className="col-9 col-md-10">
+                <div className="col-3 col-md-2 align-self-center">{skill.skill}</div>
+                <div className="col-9 col-md-10 align-self-center">
                   <Progress color="info" value={skill.value} className="my-2" />
                 </div>
               </div>

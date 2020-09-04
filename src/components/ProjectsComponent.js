@@ -31,7 +31,7 @@ class Projects extends Component {
                 <img className="content-image" src={project.img} alt={project.alt} width="100%" height="50%" />
                 <div className="content-details fadeIn-top">
                   <h3>{project.title}</h3>
-                  <p>{project.lang}</p>
+                  <p className='d-none d-md-block'>{project.lang}</p>
                   <Button onClick={() => this.toggleModal(project)} className="btn btn-outline-info">
                     Learn More
                   </Button>
@@ -107,6 +107,9 @@ class Projects extends Component {
                             {" "}
                             <Button className="btn btn-outline-info">See on GitHub</Button>
                           </a>
+                          <Button className="btn btn-outline-danger ml-2" onClick={this.toggleModal}>
+                            Close
+                          </Button>
                         </div>
                       </Row>
                     </div>

@@ -14,12 +14,12 @@ class About extends Component {
             </div>
           </div>
           <Row>
-            <div className="col-12 col-md-7 d-flex justify-content-center">
+            <div className="col-12 col-lg-7 d-flex justify-content-center">
               <img src="assets/images/portrait.jpg" alt="Portrait" width="50%" height="auto" style={{ borderRadius: "10%" }} />
             </div>
-            <div className="col-12 col-md-5">
-              <h2>Hi, I'm Jason. Nice to meet you.</h2>
-              <p>
+            <div className="col-12 col-lg-5">
+              <h2 className='d-flex justify-content-center justify-content-lg-start'>Hi, I'm Jason. Nice to meet you.</h2>
+              <p className='d-flex justify-content-center justify-content-lg-start'>
                 Since my introduction into web development, I've become fascinated with the art of creating websites. Having experience in both front and back end development, I'm confident in my ability to actively contribute to your project. I'm strongly self-motivated to work diligently in
                 creating the product of your dreams. My history of striving for excellence will ensure nothing but the best.
               </p>
