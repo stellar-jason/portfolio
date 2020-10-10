@@ -38,13 +38,13 @@ class NavBar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" href="#skills">
-                    Skills
+                  <NavLink className="nav-link" href="#projects">
+                    Projects
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" href="#projects">
-                    Projects
+                  <NavLink className="nav-link" href="#skills">
+                    Skills
                   </NavLink>
                 </NavItem>
                 <NavItem>
