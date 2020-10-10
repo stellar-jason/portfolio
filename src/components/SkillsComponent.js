@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, CardImg, Progress } from "reactstrap";
+import { Card, CardImg } from "reactstrap";
 
 const RenderSkills = ({ skillsList }) => {
   return (
@@ -17,26 +17,26 @@ const RenderSkills = ({ skillsList }) => {
   );
 };
 
-const RenderSkillsBar = ({ skillsList }) => {
-  return (
-    <>
-      {skillsList.map((skill) => {
-        if (skill.id < 10) {
-          return (
-            <>
-              <div className="row" key={skill.id}>
-                <div className="col-3 col-md-2 align-self-center">{skill.skill}</div>
-                <div className="col-9 col-md-10 align-self-center">
-                  <Progress color="info" value={skill.value} className="my-2" />
-                </div>
-              </div>
-            </>
-          )}
-          return <div/>;
-      })}
-    </>
-  );
-};
+// const RenderSkillsBar = ({ skillsList }) => {
+//   return (
+//     <>
+//       {skillsList.map((skill) => {
+//         if (skill.id < 10) {
+//           return (
+//             <>
+//               <div className="row" key={skill.id}>
+//                 <div className="col-3 col-md-2 align-self-center">{skill.skill}</div>
+//                 <div className="col-9 col-md-10 align-self-center">
+//                   <Progress color="info" value={skill.value} className="my-2" />
+//                 </div>
+//               </div>
+//             </>
+//           )}
+//           return <div/>;
+//       })}
+//     </>
+//   );
+// };
 
 class Skills extends Component {
   render() {
@@ -53,7 +53,12 @@ class Skills extends Component {
           <div className="row">
             <RenderSkills skillsList={this.props.skillsList} />
           </div>
-          <div className="row">
+          <div className='row'>
+            <div className='col d-flex justify-content-center'>
+              <h6>To see more details about skills, please download my <a className='resume' href='#about'>resume</a></h6>
+            </div>
+          </div>
+          {/* <div className="row">
             <div className="col-12 col-md-8">
               <RenderSkillsBar skillsList={this.props.skillsList} />
             </div>
@@ -74,7 +79,7 @@ class Skills extends Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </>
     );

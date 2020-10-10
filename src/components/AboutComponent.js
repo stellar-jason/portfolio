@@ -13,13 +13,13 @@ class About extends Component {
               </u>
             </div>
           </div>
-          <Row>
-            <div className="col-12 col-lg-7 d-flex justify-content-center">
-              <img src="assets/images/portrait.jpg" alt="Portrait" width="50%" height="auto" style={{ borderRadius: "10%" }} />
+          <Row className='d-flex justify-content-center'>
+            <div className="col-12 col-lg-7 col-xl-7 d-flex justify-content-center">
+              <img src="assets/images/portrait.jpg" rel='preload' alt="Portrait" width="50%" height="auto" style={{ borderRadius: "10%" }} />
             </div>
-            <div className="col-12 col-lg-5">
-              <h2 className='d-flex justify-content-center justify-content-lg-start'>Hi, I'm Jason. Nice to meet you.</h2>
-              <p className='d-flex justify-content-center justify-content-lg-start'>
+            <div className="col-12 col-xl-5">
+              <h2 className='d-flex justify-content-center justify-content-xl-start'>Hi, I'm Jason. Nice to meet you.</h2>
+              <p className='d-flex justify-content-center justify-content-xl-start'>
                 Since my introduction into web development, I've become fascinated with the art of creating websites. Having experience in both front and back end development, I'm confident in my ability to actively contribute to your project. I'm strongly self-motivated to work diligently in
                 creating the product of your dreams. My history of striving for excellence will ensure nothing but the best.
               </p>
@@ -38,7 +38,7 @@ class About extends Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="assets/files/Jason Weyland Resume.pdf" download>
+                    <NavLink href="assets/files/Jason Weyland Resume.pdf" download id="resume">
                       <i className="fa fa-file-pdf-o" /> Resume.pdf
                     </NavLink>
                   </NavItem>

@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Baloo Thambi 2", cursive;
+  font-family: "Baloo Thambi 2", "cursive";
   overflow-x: hidden;
 }
 
@@ -28,6 +28,11 @@ body {
 
 .nav-link:hover {
   color: turquoise !important;
+}
+
+.resume:hover {
+  color: turquoise;
+  text-decoration: none;
 }
 
 u > h1 {

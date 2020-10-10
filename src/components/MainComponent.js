@@ -22,8 +22,8 @@ class Main extends Component {
       <>
         <NavBar/>
         <About/>
-        <Skills skillsList={this.state.skillsList}/>
         <Projects projectList={this.state.projectList}/>
+        <Skills skillsList={this.state.skillsList}/>
         <Contact/>
         <Footer/>
       </>
