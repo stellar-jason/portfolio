@@ -38,7 +38,7 @@ class About extends Component {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="assets/files/Jason Weyland Resume.pdf" download id="resume">
+                    <NavLink href="assets/files/Jason Weyland Full Stack Developer.pdf" download id="resume">
                       <i className="fa fa-file-pdf-o" /> Resume.pdf
                     </NavLink>
                   </NavItem>

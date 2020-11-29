@@ -173,4 +173,22 @@ export const carousel = [
     img: '/assets/images/RNreservation.png',
     alt: 'reservation',
   },
+  {
+    index: 5, 
+    id: 27,
+    img: '/assets/images/bioIt (1).png',
+    alt: 'Home Page',
+  },
+  {
+    index: 5, 
+    id: 28,
+    img: '/assets/images/bioIt (2).png',
+    alt: 'Create Area Page',
+  },
+  {
+    index: 5, 
+    id: 29,
+    img: '/assets/images/bioIt (3).png',
+    alt: 'Trips Page',
+  },
 ]

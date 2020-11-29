@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     id: 4,
-    img: 'assets/images/logo.png',
+    img: 'assets/images/RNhome.png',
     alt: 'NuCamp Website',
     title: 'NuCamp',
     lang: 'React Native',
@@ -39,4 +39,13 @@ export const projects = [
     link: 'https://github.com/JWeyland12/Timpanogos-Bootstrap-Site',
     par: 'A website solution for the Timpanogos Grotto of the National Speleological Society. This project aims to deliver a valuable product to an organization in need of an online presence in order to communicate within the organization and represent themselves to the public.',
   },
+  {
+    id: 5,
+    img: 'assets/images/bioIt (1).png',
+    alt: 'BioIt Inventory App',
+    title: 'BioIt Inventory App',
+    lang: 'JavaScript, React Native, Redux, Node, Express, MongoDB, Mongoose, AWS',
+    link: 'https://github.com/JWeyland12/bioInventoryApp',
+    par: 'Offline first bio inventory app to streamline the work of environmental professionals conducting bio inventories on karst properties.'
+  }
 ]
